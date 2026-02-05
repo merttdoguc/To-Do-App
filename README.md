@@ -23,7 +23,7 @@ Uygulama, temel **CRUD** (Oluşturma, Okuma, Güncelleme, Silme) işlemlerinin y
 
 Bu projede aşağıdaki teknolojiler kullanılmıştır:
 
-| **Backend** | Python, Flask | Sunucu tarafı mantığı ve rota yönetimi. |
-| **Veritabanı** | SQLite, SQLAlchemy | Veri saklama ve ORM yapısı. |
-| **Frontend** | Bootstrap 5, HTML/CSS | Responsive tasarım ve hazır bileşenler. |
-| **Template Engine** | Jinja2 | Dinamik HTML oluşturma. | | Dinamik HTML oluşturma. |
+| **Backend** | Python, Flask |
+| **Veritabanı** | SQLite, SQLAlchemy | 
+| **Frontend** | Bootstrap 5, HTML/CSS |
+| **Template Engine** | Jinja2 |
