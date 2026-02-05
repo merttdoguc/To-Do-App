@@ -1,6 +1,6 @@
 # Flask Görev Yöneticisi (Advanced To-Do App)
 
-Bu proje, kullanıcıların görevlerini öncelik sırasına, kategorilere ve teslim tarihlerine göre yönetmesini sağlayan bir web uygulamasıdır. **Python (Flask)** altyapısı ve **SQLite** veritabanı kullanılarak geliştirilmiştir.
+Bu proje, kullanıcıların görevlerini öncelik sırasına, kategorilere ve teslim tarihlerine göre yönetmesini sağlayan bir web uygulamasıdır. **Python (Flask)** ve **SQLite** veri tabanı kullanılarak geliştirilmiştir.
 
 ## Proje Hakkında
 
