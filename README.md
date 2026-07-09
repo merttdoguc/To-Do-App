@@ -1,29 +1,29 @@
-# Flask Görev Yöneticisi (Advanced To-Do App)
+# Flask Task Manager
 
-Bu proje, kullanıcıların görevlerini öncelik sırasına, kategorilere ve teslim tarihlerine göre yönetmesini sağlayan bir web uygulamasıdır. **Python (Flask)** ve **SQLite** veri tabanı kullanılarak geliştirilmiştir.
+This project is a task management web application developed with **Python (Flask)** and **SQLite**. It allows users to organize their tasks by priority, category, and due date.
 
-## Proje Hakkında
+## About the Project
 
-Uygulama, temel **CRUD** (Oluşturma, Okuma, Güncelleme, Silme) işlemlerinin yanı sıra, kullanıcı deneyimini iyileştiren bir sıralama algoritması ve görsel arayüz geliştirmeleri içerir.
+The application includes the basic **CRUD** operations, along with an intelligent task sorting algorithm and an intuitive user interface to improve the user experience.
 
-## Öne Çıkan Özellikler
+## Features
 
-* **Tam Kontrol (CRUD):** Görev ekleme, silme ve mevcut görevleri düzenleme (Edit) özelliği.
-* **Akıllı Sıralama Algoritması:** Görevler otomatik olarak şu sıraya göre listelenir:
-    1.  Tamamlanmamış Görevler
-    2.  Öncelik Seviyesi (Yüksek > Düşük)
-    3.  Tarih Yakınlığı
-* **Öncelik Yönetimi:** Görevlere *Düşük*, *Orta* veya *Yüksek* öncelik atayabilme ve renkli etiketlerle görselleştirme.
-* **Kategorilendirme:** *Okul*, *İş*, *Proje* gibi etiketlerle işleri gruplama.
-* **Zaman Yönetimi:** Son tarih (Due Date) belirleme ve tarihi geçen görevler için otomatik **(!Gecikti)** uyarısı.
-* **Arama (Search):** Görev başlıkları içinde anlık filtreleme yapabilme.
-* **Arayüz:** Bootstrap 5 ile geliştirilmiş, tamamlanan görevlerin üzerini çizen ve soluklaştıran dinamik UI.
+- **Full CRUD Operations:** Create, edit, update, and delete tasks.
+- **Smart Sorting Algorithm:** Tasks are automatically sorted based on:
+  1. Incomplete tasks first
+  2. Priority level (High → Medium → Low)
+  3. Due date (nearest first)
+- **Priority Management:** Assign **Low**, **Medium**, or **High** priority levels with color-coded labels.
+- **Category Management:** Organize tasks into categories such as **School**, **Work**, and **Project**.
+- **Due Date Tracking:** Set due dates and automatically highlight overdue tasks.
+- **Search Functionality:** Instantly filter tasks by title.
+- **User-Friendly Interface:** Responsive interface built with Bootstrap 5, including visual indicators for completed tasks.
 
-## Kullanılan Teknolojiler
+## Tech Stack
 
-Bu projede aşağıdaki teknolojiler kullanılmıştır:
-
+| Category | Technologies |
+|----------|--------------|
 | **Backend** | Python, Flask |
-| **Veritabanı** | SQLite, SQLAlchemy | 
-| **Frontend** | Bootstrap 5, HTML/CSS |
+| **Database** | SQLite, SQLAlchemy |
+| **Frontend** | Bootstrap 5, HTML, CSS |
 | **Template Engine** | Jinja2 |
